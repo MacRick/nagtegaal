@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .bgimg {
+    background-image: url('img/opa_oma.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 25px;
+  }
+
+  .bgimg2 {
+    background-image: url('img/2cv.gif');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 25px;
+  }
+
+
+  .main{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+     
+      
+  }
+
+  hr{
+      color: white;
+      width: 75%;
+  }
+
+  .main p{
+      font-size: 25px;
+      line-height: 1.6;
+      font-weight: 400;
+  }
+
+  .main h1{
+      font-size: 30px;
+  }
+
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-transform: uppercase;
+   
+  }
+  
+
+  
+
+  .navigation{
+    background-color: #FAEBD7;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .navigation a{
+    color: black;
+  }
+
+  .hotel_section{
+    background-color: #FAEBD7;
+    padding: 20px;
+    
+  }
+
+  .nav_section{
+    padding: 20px;
+  }
+
+
+  .route_section{
+    padding: 20px;
+  }
+
+  .qa_section{
+    background-color: #FAEBD7;
+    padding: 20px;
+  }
+
+  .eten_section{
+    padding: 20px;
+  }
+
+  .responsive_img{
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ .responsive_img{width: 100%;}}
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */.responsive_img{width: 35%;} }
